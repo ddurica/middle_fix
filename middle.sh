@@ -1,1 +1,6 @@
-head -n 75 basilisk.dat | tail -n 5
+
+#script to list the middle of a file
+#$1 represents the filename
+# usage:
+#bash middle.sh [filename] 
+head -n 75  $1 | tail -n 5
